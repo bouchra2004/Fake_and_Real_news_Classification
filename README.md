@@ -36,7 +36,7 @@ An interactive web application built with Streamlit will allow users to enter ne
 | Jupyter Notebook | Experiments and analysis |
 | Streamlit | Web application |
 
-## Machine Learning Models
+## Machine Learning Modelss
 
 The project will compare the following algorithms:
 
