@@ -1,0 +1,60 @@
+{
+  "model_name": "LinearSVC",
+  "total_errors": 25,
+  "false_positives_count": 6,
+  "false_negatives_count": 19,
+  "false_positive_examples": [
+    {
+      "text_preview": "Tiger tips Clinton, bear backs Trump in Siberian zoo's mock vote Reuters - A tiger and polar bear in a Siberian zoo made contrasting predictions of the outcome of Tuesday s U.S. election when invited to choose between pumpkins representing Hillary Clinton and Donald Trump. Female tiger Yunona favore...",
+      "true_label": "Real",
+      "predicted_label": "Fake"
+    },
+    {
+      "text_preview": "Trump's Washington foreign policy speech Reuters - U.S. Republican presidential front-runner Donald Trump delivered a major foreign policy speech on Wednesday, vowing always to put America first.. The following are highlights from his address: No country has ever prospered that failed to put its own...",
+      "true_label": "Real",
+      "predicted_label": "Fake"
+    },
+    {
+      "text_preview": "A Picture and its Story: Reaching out to rescue a Rohingya woman PALONG KHALI, Bangladesh Reuters - Hannah McKay was on her first foreign assignment, just three months after joining Reuters, photographing Rohingya Muslims in refugee camps in Bangladesh. Then she and other photographers heard around ...",
+      "true_label": "Real",
+      "predicted_label": "Fake"
+    },
+    {
+      "text_preview": "Pictures of the Year: A picture and its story Reuters - Reuters photographers witnessed the biggest stories of 2017 from Donald Trump s first year as U.S. president to the flight of Rohingya refugees from Myanmar, from Venezuela s crisis to the fall of Islamic State and a tower block inferno in Lond...",
+      "true_label": "Real",
+      "predicted_label": "Fake"
+    },
+    {
+      "text_preview": "Hackers play 30 minutes of Islamic State propaganda on Swedish radio STOCKHOLM Reuters - Some listeners to commercial radio station Mix Megapol in Sweden heard 30 minutes of an Islamic State propaganda song on Friday after hackers took over the station s frequency, the station s owners said. Mix Meg...",
+      "true_label": "Real",
+      "predicted_label": "Fake"
+    }
+  ],
+  "false_negative_examples": [
+    {
+      "text_preview": "Irma Update: Latest Look as Hurricane Strengthens to Cat 5 A Great Danger to Florida Keys Hurricane Irma is moving a little west. The Category 5 Hurricane ready to hit Florida is first a great danger to the Florida Keys on SUNDAY. Storm surge is expected to be 10-12 feet. Please pray for the people ...",
+      "true_label": "Fake",
+      "predicted_label": "Real"
+    },
+    {
+      "text_preview": "The World Speaks Out On Trump Top Foreign Diplomats Unite Against Him Here s the thing about being the leader of the free world, you need to be able to get along with other nations and be able to work with them hand in glove. However, the world seems to be united against he possibility of Republican...",
+      "true_label": "Fake",
+      "predicted_label": "Real"
+    },
+    {
+      "text_preview": "BREAKING: Activist Appeals Court Rules Against Trump Trump Comes Out Swinging Tweets Awesome Reply A federal appeals court ruled that the U.S. will remain open to refugees and visa holders from seven Muslim-majority countries, rejecting a bid by the Trump administration to reinstate a travel ban in ...",
+      "true_label": "Fake",
+      "predicted_label": "Real"
+    },
+    {
+      "text_preview": "MICHELLE, SASHA AND MALIA Will Join Barack On Trip To Communist Cuba Why Not, It s Only The Taxpayer s Money The Obama s just added millions onto the taxpayer s tab for the trip to Cuba that Barack was going on until they just announced the entire family will tag along The Obamas have been famous fo...",
+      "true_label": "Fake",
+      "predicted_label": "Real"
+    },
+    {
+      "text_preview": "Court Slams Down Trump s Order Blocking Funding To Sanctuary Cities During the 2016 presidential campaign, President Donald Trump made a lot of promises on immigration. He was going to build a wall between the United States and Mexico, that Mexico would fund. He was going to keep Muslims from coming...",
+      "true_label": "Fake",
+      "predicted_label": "Real"
+    }
+  ]
+}

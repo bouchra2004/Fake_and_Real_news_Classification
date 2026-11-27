@@ -1,0 +1,78 @@
+{
+  "DummyClassifier": {
+    "model_name": "DummyClassifier",
+    "accuracy": 0.5420716112531969,
+    "precision": 0.5420716112531969,
+    "recall": 1.0,
+    "f1_score": 0.703043370097023,
+    "confusion_matrix": [
+      [
+        0,
+        3581
+      ],
+      [
+        0,
+        4239
+      ]
+    ],
+    "train_time": 0,
+    "classification_report": "              precision    recall  f1-score   support\n\n        Fake       0.00      0.00      0.00      3581\n        Real       0.54      1.00      0.70      4239\n\n    accuracy                           0.54      7820\n   macro avg       0.27      0.50      0.35      7820\nweighted avg       0.29      0.54      0.38      7820\n"
+  },
+  "MultinomialNB": {
+    "model_name": "MultinomialNB",
+    "accuracy": 0.9579283887468031,
+    "precision": 0.9610849056603774,
+    "recall": 0.961311630101439,
+    "f1_score": 0.9611982545111452,
+    "confusion_matrix": [
+      [
+        3416,
+        165
+      ],
+      [
+        164,
+        4075
+      ]
+    ],
+    "train_time": 0,
+    "classification_report": "              precision    recall  f1-score   support\n\n        Fake       0.95      0.95      0.95      3581\n        Real       0.96      0.96      0.96      4239\n\n    accuracy                           0.96      7820\n   macro avg       0.96      0.96      0.96      7820\nweighted avg       0.96      0.96      0.96      7820\n"
+  },
+  "LogisticRegression": {
+    "model_name": "LogisticRegression",
+    "accuracy": 0.9904092071611253,
+    "precision": 0.9866760168302945,
+    "recall": 0.9957537154989384,
+    "f1_score": 0.9911940824233885,
+    "confusion_matrix": [
+      [
+        3524,
+        57
+      ],
+      [
+        18,
+        4221
+      ]
+    ],
+    "train_time": 0,
+    "classification_report": "              precision    recall  f1-score   support\n\n        Fake       0.99      0.98      0.99      3581\n        Real       0.99      1.00      0.99      4239\n\n    accuracy                           0.99      7820\n   macro avg       0.99      0.99      0.99      7820\nweighted avg       0.99      0.99      0.99      7820\n"
+  },
+  "LinearSVC": {
+    "model_name": "LinearSVC",
+    "accuracy": 0.9968030690537084,
+    "precision": 0.9955315145813735,
+    "recall": 0.9985845718329794,
+    "f1_score": 0.9970557060416912,
+    "confusion_matrix": [
+      [
+        3562,
+        19
+      ],
+      [
+        6,
+        4233
+      ]
+    ],
+    "train_time": 0,
+    "classification_report": "              precision    recall  f1-score   support\n\n        Fake       1.00      0.99      1.00      3581\n        Real       1.00      1.00      1.00      4239\n\n    accuracy                           1.00      7820\n   macro avg       1.00      1.00      1.00      7820\nweighted avg       1.00      1.00      1.00      7820\n"
+  }
+}

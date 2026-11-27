@@ -1,0 +1,14 @@
+{
+  "DummyClassifier": {
+    "train_time_seconds": 32.65455102920532
+  },
+  "MultinomialNB": {
+    "train_time_seconds": 31.159823656082153
+  },
+  "LogisticRegression": {
+    "train_time_seconds": 31.85281276702881
+  },
+  "LinearSVC": {
+    "train_time_seconds": 32.10451602935791
+  }
+}
